@@ -1,0 +1,18 @@
+Cómo calcular utilidad. apuntes oscar. 
+
+recorrer lineas oscuras, con 2 bucles anidados. 
+dentro del segundo bucle, condición que diga: si x está enttre 0 y 6, estamos en este caso, 
+sino, estamos en este otro caso, y así para cada caso (diagonales izquierda, derecha
+vertical, horizontal), 
+y dependiendo del caso, llamamos a una funció u a otra. Y estas funciones lo que hacen 
+es ir calculando cuatros en raya posibles. 
+
+lo ideal una función para cada jugador, y en la función de calcular utilidad general, solo 
+la resta. 
+
+busca si no hay fichas o solo hay fichas nuestras, para si hay ficha del contrario. 
+
+
+optimización: 
+para saber si se puede jugar, en lugar de comprobar el numero de fichas en la columna
+simplemente comprobar si se puede jugar en la última ficha. 
